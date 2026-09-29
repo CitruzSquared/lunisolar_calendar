@@ -74,7 +74,7 @@ function draw() {
             text("🌑", x, height / 2 + 120);
             text("🌕", x + (L / 2) / 365.25 * width * 0.95, height / 2 + 70);
             var str1 = date_to_str(date);
-            var str2 = date_to_str(date + 15);
+            var str2 = date_to_str(date + 14);
             textSize(15);
             text(str1, x, height / 2 + 145);
             text(str2, x + (L / 2) / 365.25 * width * 0.95, height / 2 + 95);
