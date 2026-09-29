@@ -7,7 +7,7 @@ function setup() {
     createCanvas(windowWidth * 0.99, 500);
     textAlign(CENTER, CENTER);
     slider = createSlider(1, 99, 50);
-    slider.position(10, 530);
+    slider.position(10, 600);
     slider.size(700);
 }
 
